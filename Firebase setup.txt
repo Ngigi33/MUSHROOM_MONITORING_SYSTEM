@@ -1,0 +1,34 @@
+Firebase setup
+1. https://randomnerdtutorials.com/esp32-firebase-realtime-database/
+2. https://randomnerdtutorials.com/esp32-firebase-web-app/
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDhfwnEzxEbJcWolzLGX8Ai74Rkqmrvn7U",
+  authDomain: "mushroom-monitoring-database.firebaseapp.com",
+  databaseURL: "https://mushroom-monitoring-database-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "mushroom-monitoring-database",
+  storageBucket: "mushroom-monitoring-database.appspot.com",
+  messagingSenderId: "306319549768",
+  appId: "1:306319549768:web:c80de528b377366c6aff7d",
+  measurementId: "G-C9KTLSD7EK"
+};
+
+NB:
+Delete "firebase.ps1" from C:\Users\LENOVO\AppData\Roaming\npm during >>firebase deploy
+
+3. https://randomnerdtutorials.com/esp32-esp8266-firebase-authentication/
+- Email and password authentication
+4. https://randomnerdtutorials.com/esp32-esp8266-firebase-bme280-rtdb/
+5. https://randomnerdtutorials.com/esp32-esp8266-firebase-web-app-sensor/
+
+https://firebase.google.com/docs/cli#install-cli-windows
+https://firebase.google.com/docs/flutter/setup?platform=android
+https://docs.flutter.dev/data-and-backend/firebase
+
+Creating web app
+https://randomnerdtutorials.com/esp32-firebase-web-app/
+
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy --only hosting:mushroom-monitoring-database

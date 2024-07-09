@@ -1,0 +1,31 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+body {
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #049faa;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+#authentication-bar{
+    background-color:mintcream;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#user-details{
+    color: cadetblue;
+}

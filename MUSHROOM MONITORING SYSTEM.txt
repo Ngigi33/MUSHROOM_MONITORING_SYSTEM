@@ -1,0 +1,47 @@
+MUSHROOM MONITORING SYSTEM
+>GSM SIM900A -https://www.electroniclinic.com/esp32-with-gsm-sim900a-gsm-wifi-iot-gsm-esp32-and-gsm/#
+Power supply - 5v 
+https://linuxhint.com/power-esp32-smartphone-charger/
+The ESP32 has three UART channels, two external and one internal. The UART pins consist of UART0 with pin 3,1 as Rx and TX, and UART2 with pins 16,17 as Rx and Tx respectively.
+
+
+AT-Commands
+https://www.engineersgarage.com/at-commands-gsm-at-command-set/ 
+
+GSM CODE(sim 808)
+https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/
+https://www.circuitstoday.com/interface-gsm-module-with-arduino
+
+https://circuitdigest.com/microcontroller-projects/interfacing-sim800l-module-with-esp32
+
+DHT11
+https://lastminuteengineers.com/dht11-module-arduino-tutorial/
+https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/
+https://www.upesy.com/blogs/tutorials/dht11-humidity-temperature-sensor-with-arduino-code-on-esp32-board#
+https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/
+
+Flutter 
+https://duckduckgo.com/?t=ffab&q=flutter+and+mqtt&ia=web
+
+
+Components
+1. ESP32
+2. GSM 800L
+
+
+
+Conditions of change of state /Mode
+1. Colonization- temp between(24-27), hum(80-90)
+2. Frution - temp (14 -17) hum
+
+Realtime Database link:
+https://console.firebase.google.com/u/0/project/mushroom-monitoring-database/database/mushroom-monitoring-database-default-rtdb/data/~2F
+
+Web API Key
+AIzaSyDhfwnEzxEbJcWolzLGX8Ai74Rkqmrvn7U
+
+How to convert Figma design to flutter using Dhiwise 
+https://www.youtube.com/watch?v=t7lUSiddFd4
+
+Figma:https://www.figma.com/file/XGnOHeCTfVoPGOwNhSpqyw/Figma-Mobile-Design?type=design&node-id=1-2&mode=design&t=lOtgkXdVWOpbyL2Q-0
+
